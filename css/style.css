@@ -30,6 +30,29 @@ html{
     scroll-behavior: smooth;
 }
 
+/* loader start   */
+.loader_container{
+    position: fixed;
+    background: #fff;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.loader_container img{
+    width: 35rem;
+}
+.loader_container.fade_out{
+    top: 110%;
+    opacity: 0;
+}
+/* loader end   */
+
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -638,29 +661,7 @@ footer .credit span{
     font-size: 1.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer end  */
 
 
 

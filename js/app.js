@@ -39,3 +39,11 @@ searchBtn.onclick = () => {
 closeBtn.addEventListener('click', () => {
     searchForm.classList.remove('active');
 })
+
+const loader = () => {
+    document.querySelector('.loader_container').classList.add('fade_out');
+}
+const fadeOut = () => {
+    setInterval(loader, 3000);
+}
+window.onload = fadeOut;
