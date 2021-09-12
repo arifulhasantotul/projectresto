@@ -368,11 +368,123 @@ main section:nth-child(even){
     color: var(--black);
 }
 
-
-
 /* about end  */
 
+/* menu start  */
+
+.menu .box_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+.menu .box_container .box{
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,0.2);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+.menu .box_container .box .image{
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.menu .box_container .box .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+.menu .box_container .box .image a{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    color: var(--black);
+}
+.menu .box_container .box .image a .fa-heart{
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+}
+.menu .box_container .box .image .fa-heart:hover{
+    background: var(--green);
+    color: #fff;
+}
+.menu .box_container .box .content{
+    padding: 2rem;
+    padding-top: 0;
+}
+.menu .box_container .box .content .stars{
+    padding-bottom: 1rem;
+}
+.menu .box_container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--green);
+}
+.menu .box_container .box .content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+.menu .box_container .box .content p{
+    color: var(--light-color);
+    font-size: 1.6rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+.menu .box_container .box .content .price{
+    color: var(--green);
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+/* menu end  */
+
 /* main end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries  */
 @media (max-width:991px){
