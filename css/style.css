@@ -601,13 +601,42 @@ main section:nth-child(even){
 
 
 
+footer{
+    padding: 2rem 9%;
+}
+footer .box_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+footer .box_container .box h3{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+footer .box_container .box a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+footer .box_container .box a:hover{
+    color: var(--green);
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
+footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,0.2);
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1.5rem .5rem ;
+    margin-top: 1.5rem;
+}
+footer .credit span{
+    color: var(--green);
+    font-size: 1.2rem;
+}
 
 
 
