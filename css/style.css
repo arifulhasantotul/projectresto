@@ -539,6 +539,62 @@ main section:nth-child(even){
     line-height: 1.8rem;
     color: var(--light-color);
 }
+/* review end  */
+
+
+
+
+
+
+
+/* order start  */
+.order form{
+    max-width: 90rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+.order form .input_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.order form .input_box .input{
+    width: 49%;
+}
+.order form .input_box .input span{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+.order form .input_box .input input,
+.order form .input_box .input textarea{
+    background: #eee;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.order form .input_box .input input:focus,
+.order form .input_box .input textarea:focus{
+    border: .1rem solid var(--green);
+}
+.order form .input_box .input textarea{
+    height: 20rem;
+    resize: none;
+}
+.order form .btn{
+    margin-top: 0;
+}
+/* order end  */
 
 /* main end */
 
@@ -634,9 +690,10 @@ main section:nth-child(even){
         font-size: 5rem;
     }
 
+
 }
 
-@media (max-width:480px){
+@media (max-width:450px){
 
     html{
         font-size: 50%;
