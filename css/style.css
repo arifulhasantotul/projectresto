@@ -94,6 +94,13 @@ header .icons #menu_bars{
 }
 /* navbar done  */
 
+
+
+
+
+
+
+
 /* search start  */
 #search_form{
     position: fixed;
@@ -145,6 +152,14 @@ header .icons #menu_bars{
     font-size: 4rem;
 }
 /* search end  */
+
+
+
+
+
+
+
+
 /* main start */
 main section{
     padding: 2rem 9%;
@@ -184,6 +199,10 @@ main section:nth-child(even){
     background: var(--green);
     letter-spacing: .1rem;
 }
+
+
+
+
 /* home start  */
 .home .home_slider .slide{
     display: flex;
@@ -225,6 +244,14 @@ main section:nth-child(even){
     background: var(--green);
 }
 /* home end  */
+
+
+
+
+
+
+
+
 
 /* dishes start  */
 
@@ -305,6 +332,14 @@ main section:nth-child(even){
 
 /* dishes end  */
 
+
+
+
+
+
+
+
+
 /* about start  */
 
 .about .row{
@@ -370,6 +405,17 @@ main section:nth-child(even){
 
 /* about end  */
 
+
+
+
+
+
+
+
+
+
+
+
 /* menu start  */
 
 .menu .box_container{
@@ -413,7 +459,7 @@ main section:nth-child(even){
     top: 1.6rem;
     right: 1.6rem;
 }
-.menu .box_container .box .image .fa-heart:hover{
+.menu .box_container .box .image a:hover{
     background: var(--green);
     color: #fff;
 }
@@ -444,6 +490,55 @@ main section:nth-child(even){
     margin-left: 1rem;
 }
 /* menu end  */
+
+
+
+
+
+
+
+
+.review .slide{
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0,0,0,0.2);
+    border-radius: .5rem;
+    position: relative;
+
+}
+.review .slide .fa-quote-right{
+    position: absolute;
+    top: 2rem; right: 2rem;
+    font-size: 6rem;
+    color: #ccc;
+}
+.review .slide .user{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.review .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review .slide .user h3{
+    color: var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+.review .slide .user i{
+    font-size: 1.3rem;
+    color: var(--green);
+
+}
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: var(--light-color);
+}
 
 /* main end */
 
